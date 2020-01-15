@@ -1,4 +1,3 @@
-
 ## expense-react-app
 ## Expense application with React, Redux and Asp.Net Core 2.2
 
@@ -27,6 +26,10 @@ iwr -Method POST -Uri https://ms-expense-react-func-app.azurewebsites.net/api/on
 
 To locally test send email queue:<br />
 iwr -Method POST -Uri https://ms-expense-react-func-app.azurewebsites.net/api/onExpSubmittedAddToQueToCreatePdfAndSendMail?code=<<...>> -Headers @{ "content-type"="application/json" } -Body '{"user": {"userId": "user1"},"id": 2}'`<br/><br />
+
+
+# expense-react-app
+Expense React App using Asp.Net Core 2.2 Redux, Sql Server
 
 
 # expense-react-app
