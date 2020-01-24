@@ -65,6 +65,7 @@ const Login = ({
             id="userId"
             name="userId"
             placeholder="User Id"
+            maxLength={8}
             onChange={onChange}
             className="form-control mt-2"
           ></input>
@@ -79,6 +80,7 @@ const Login = ({
             id="password"
             name="password"
             placeholder="Password"
+            maxLength={8}
             onChange={onChange}
             className="form-control mt-2"
           ></input>

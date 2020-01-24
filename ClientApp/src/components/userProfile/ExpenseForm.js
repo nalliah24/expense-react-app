@@ -85,6 +85,7 @@ const ExpenseForm = ({
                 name="description"
                 type="text"
                 onChange={handleChange}
+                maxLength={50}
                 className="form-control"
               />
               {errors.description && <div className="alert alert-danger">{errors.description}</div>}

@@ -46,11 +46,11 @@ const ExpenseList = ({ transactions, onDeleteClick }) => {
         )
       })}
 
-      <div className="row p-2">
+      {/* <div className="row p-2">
         <div className="col-sm-6">Total:</div>
         <div className="col-sm-2 text-right">
           <span style={totalSumStyle}>{subTotal}</span></div>
-      </div>
+      </div> */}
 
     </div>
   </div>

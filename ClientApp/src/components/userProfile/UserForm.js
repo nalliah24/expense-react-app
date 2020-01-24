@@ -22,27 +22,27 @@ const UserForm = ({
       )}
           <div>
               <div><label htmlFor="userId">User Id</label></div>
-              <input type="text" id="userId" name="userId" value={user.userId} onChange={onChange} className="form-control" />
+              <input type="text" id="userId" name="userId" maxLength={8} value={user.userId} onChange={onChange} className="form-control" />
               {errors.userId && <div className="alert alert-danger">{errors.userId}</div>}
           </div>
           <div>
             <div><label htmlFor="password">Password</label></div>
-            <input type="password" id="password" name="password" value={user.password} onChange={onChange} className="form-control" />
+            <input type="password" id="password" name="password" maxLength={8} value={user.password} onChange={onChange} className="form-control" />
             {errors.password && <div className="alert alert-danger">{errors.password}</div>}
           </div>
           <div>
             <div><label htmlFor="firstName">First Name</label></div>
-            <input type="text" id="firstName" name="firstName" value={user.firstName} onChange={onChange} className="form-control" />
+            <input type="text" id="firstName" name="firstName" maxLength={30} value={user.firstName} onChange={onChange} className="form-control" />
             {errors.firstName && <div className="alert alert-danger">{errors.firstName}</div>}
           </div>
           <div>
             <div><label htmlFor="lastName">Last Name</label></div>
-            <input type="text" id="lastName" name="lastName" value={user.lastName} onChange={onChange} className="form-control" />
+            <input type="text" id="lastName" name="lastName" maxLength={30} value={user.lastName} onChange={onChange} className="form-control" />
             {errors.lastName && <div className="alert alert-danger">{errors.lastName}</div>}
           </div>
           <div>
             <div><label htmlFor="email">Email</label></div>
-            <input type="text" id="email" name="email" value={user.email} onChange={onChange} className="form-control" />
+            <input type="text" id="email" name="email" maxLength={40} value={user.email} onChange={onChange} className="form-control" />
             {errors.email && <div className="alert alert-danger">{errors.email}</div>}
           </div>
           <div>

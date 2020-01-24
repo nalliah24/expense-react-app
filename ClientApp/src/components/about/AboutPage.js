@@ -4,8 +4,7 @@ const AboutPage = () => (
   <div>
     <h2>About</h2>
     <p>
-      This app uses React, Redux, React Router, and many other helpful
-      libraries.
+      This is a demo app that uses React, Redux, Asp.Net Core, Serverless app, SendGrid Email and PDF Creator Modules.
     </p>
   </div>
 );
